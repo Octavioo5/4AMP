@@ -14,10 +14,81 @@
 	   		18/Mar/2024 <br>
 			</p>
 
-	
+               <legend><big> Formulario </big></legend><br>
+		<form action="/submit" method="post">
+    		<label> Nombre:</label><br>
+    		<input type="text" id="nombre" name="nombre" required>
+    		<br><br>
 
-			        
+		<form action="/submit" method="post">
+    		   <label>Especialidad:</label>
+    		      <select id="especialidad" name="especialidad">
+
+      			<option value="1"> Programacion </option>
+      			<option value="2"> Construccion </option>
+      			<option value="3"> Electronica </option>
+      			<option value="4"> Contabilidad </option>
+                        <option value="5"> Ofimatica </option>
+
+    		    </select>
+                </form>	        
                 
-       </body>
-    </head>
-</html>
+		 <form action="/submit" method="post">
+                    <label> Turno: </label> <br>
+                    <input type="radio" id="turno1" name="turno1" value="turno1">
+                       <label>Matutino</label><br>
+
+                    <input type="radio" id="turno2" name="turno2" value="turno2">
+                       <label> Vespertino </label><br>
+                 </form>
+
+                 <form action="/submit" method="post">
+    		   <label>Semestre:</label>
+    		      <select id="semestre" name="semestre">
+
+      			<option value="1"> 1 </option>
+      			<option value="2"> 2 </option>
+      			<option value="3"> 3 </option>
+      			<option value="4"> 4 </option>
+                        <option value="5"> 5 </option>
+                        <option value="6"> 6 </option>
+
+    		    </select>
+                </form>
+	  
+		<form action="/submit" method="post">
+                   <label> Fecha de nacimiento: </label><br>
+    		     <input type="text" id="nacimiento" name="nacimiento" required> <br><br>
+           
+                    <label> Edad: </label><br>
+    		      <input type="number" id="edad" name="edad" required>
+                 </form>
+
+                  <form action="/submit" method="post">
+                     <label> Genero: </label> <br>
+
+                    <input type="checkbox" id="Genero1" name="Genero1" value="Genero1">
+                      <label> Masculino </label><br>
+
+                    <input type="checkbox" id="Genero2" name="Genero2" value="Genero2">
+                      <label> Femenino </label><br>
+
+                    <input type="checkbox" id="Genero3" name="Genero3" value="Genero3">
+                      <label> Prefiero no decir </label><br>
+                  </form>
+                  
+		 <form action="/submit" method="post">
+                    <label> Email: </label><br>
+    		      <input type="text" id="email" name="email" required> <br><br>
+                 
+                    <label> Telefono: </label><br>
+    		      <input type="number" id="telefono" name="telefono" required> <br><br>
+    
+                      <label> Breve descripcion tuya: </label><br>
+                         <textarea id="descripcion" name="descripcion" rows="4" cols="50"></textarea><br>
+                  </form>
+		
+                     
+       	       </body>
+         </head>
+   </html>
