@@ -1,0 +1,65 @@
+body{
+    background-color:bisque;
+    
+}
+
+    h1{
+    color:rgb(199, 152, 90);
+    padding:20px;
+    animation-duration: 7s;
+    animation-name: slidein;
+    background-color: #C0392B;
+    transition: background-color 1s linear;
+
+    }
+      
+      @keyframes slidein{
+        from{
+            margin-left:100%;
+            width:300%;
+        }
+        to{
+            margin-left:0%;
+            width:100%;
+        }
+      }
+
+
+        p{
+            padding:20px;
+            font-family:verdana;
+            animation-duration: 7s;	
+            animation-name: slidein;	
+            animation-iteration-count: infinite;
+            animation-direction: alternate;	
+         }
+            @keyframes slidein{
+                from{
+                    margin-left: 100%;
+                    width: 300%;
+                }
+                to{
+                    margin-left: 0%;
+                    width:100%;                
+                }
+            }
+
+        cite{
+            font-size: 25px;
+            padding:20px;
+            color:rgb(199, 152, 90);;
+            background: rgb(199, 152, 90);
+            transition: background ease-in .5s;
+            }
+            cite:hover{
+                background:rgb(250, 199, 133);
+            }
+
+        a{
+            font-family:verdana;
+            padding:20px;
+        }
+
+
+
+    
