@@ -1,0 +1,54 @@
+
+.kite-one-regular {
+    font-family: "Kite One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+.courgette-regular {
+        font-family: "Courgette", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+.milonga-regular {
+        font-family: "Milonga", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+
+body{
+    background-color: moccasin;
+}
+
+i{
+    font-family: "Kite One", sans-serif;
+    color: #AF601A;
+    font-size: 35px;
+    margin: 5px;
+}
+
+p{
+    font-family: "Milonga", serif;
+    font-size: 25px;
+    margin: 20px;
+}
+
+button{
+    color: #AF601A;
+    font-size: 35px;
+    border: 1px solid;
+    background: none;
+ 
+}
+h3{
+    font-size: 20px;
+    padding: 5%;
+}
+
+h6{
+    font-family: "Milonga", serif;
+    color: #AF601A;
+    font-size: 35px;
+    margin: 5px;
+}
